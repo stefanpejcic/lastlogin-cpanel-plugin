@@ -7,18 +7,22 @@ Displays .lastlogin file in a table
 ## Installation
 
 #### PaperLatern theme
+
+<code>
 wget
 unzip plugin.zip
 cp LastLogin-cpanel-plugin -R /usr/local/cpanel/base/frontend/paper_lantern
 installplug..
+</code>
 
 </hr>
 
 #### Jupiter theme
 
+<code>
 wget unzip plugin.zip
 cp LastLogin-cpanel-plugin  -R /usr/local/cpanel/base/frontend/paper_lantern
 installplug..
-
+</code>
 
 
