@@ -1,4 +1,4 @@
-# LastLogin cPanel plugin
+# Last Login cPanel plugin
 Outputs .lastlogin file as a table
 
 <img src="https://raw.githubusercontent.com/stefanpejcic/LastLogin-cpanel-plugin/main/assets/img/screenshoot.png"></img>
