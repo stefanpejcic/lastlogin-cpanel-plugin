@@ -14,9 +14,9 @@ Outputs .lastlogin file as a table
 #### PaperLatern theme
 
 <pre>
-wget https://github.com/stefanpejcic/LastLogin-cpanel-plugin/archive/refs/heads/main.zip
+wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/main.zip
 unzip main.zip
-/bin/cp LastLogin-cpanel-plugin-main -R /usr/local/cpanel/base/frontend/paper_lantern/lastlogin
+/bin/cp lastlogin-cpanel-plugin-main -R /usr/local/cpanel/base/frontend/paper_lantern/lastlogin
 /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/lastlogin/info.json
 </pre>
 
@@ -25,9 +25,9 @@ unzip main.zip
 #### Jupiter theme
 
 <pre>
-wget https://github.com/stefanpejcic/LastLogin-cpanel-plugin/archive/refs/heads/main.zip
+wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/main.zip
 unzip main.zip
-/bin/cp LastLogin-cpanel-plugin-main  -R /usr/local/cpanel/base/frontend/jupiter/lastlogin/
+/bin/cp lastlogin-cpanel-plugin-main  -R /usr/local/cpanel/base/frontend/jupiter/lastlogin/
 /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/lastlogin/info.json
 </pre>
 
