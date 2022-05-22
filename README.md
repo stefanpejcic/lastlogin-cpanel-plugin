@@ -1,7 +1,13 @@
-# Last Login cPanel plugin
+# Login Log cPanel plugin
 Outputs .lastlogin file as a table
 
 <img src="https://raw.githubusercontent.com/stefanpejcic/lastlogin-cpanel-plugin/main/assets/img/screenshot.png"></img>
+
+## Teatures
+
+- generate table
+- outputs client ip
+- add links to abuseipdb
 
 ## TO DO
 - display ip info (ptr) 
