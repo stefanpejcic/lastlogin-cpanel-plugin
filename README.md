@@ -3,7 +3,7 @@ Outputs .lastlogin file as a table
 
 <img src="https://raw.githubusercontent.com/stefanpejcic/lastlogin-cpanel-plugin/main/assets/img/screenshot.png"></img>
 
-## Teatures
+## Features
 
 - generate table
 - outputs client ip
