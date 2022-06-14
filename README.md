@@ -1,7 +1,7 @@
 # Login Log cPanel plugin
 Outputs .lastlogin file as a table
 
-<img src="https://raw.githubusercontent.com/stefanpejcic/lastlogin-cpanel-plugin/main/assets/img/screenshot.png"></img>
+<!--img src="https://raw.githubusercontent.com/stefanpejcic/lastlogin-cpanel-plugin/main/assets/img/screenshot.png"></img-->
 
 ## Features
 
