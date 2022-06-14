@@ -13,7 +13,7 @@ Outputs .lastlogin file as a table
 - display ip info (ptr) 
 - 
 
-## Installation
+<!--## Installation
 
 #### PaperLatern theme
 
@@ -33,6 +33,6 @@ wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/
 unzip main.zip
 /bin/cp lastlogin-cpanel-plugin-main  -R /usr/local/cpanel/base/frontend/jupiter/lastlogin/
 /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/lastlogin/info.json
-</pre>
+</pre-->
 
 
