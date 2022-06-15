@@ -10,7 +10,7 @@ This plugin streamlines the process by allowing both SysAdmins and cPanel users 
 - outputs client ip
 - add links to abuseipdb
 
-### How to install the plugin
+<!--### How to install the plugin
 
 To install this free cpanel plugin you need access to the WHM and terminal. Login to SSH and run the following commands to install the plugin:
 
@@ -31,7 +31,7 @@ wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/
 unzip main.zip
 /bin/cp lastlogin-cpanel-plugin-main  -R /usr/local/cpanel/base/frontend/jupiter/lastlogin/
 /usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/lastlogin/info.json
-```
+```-->
 
 
 ### Changelog
