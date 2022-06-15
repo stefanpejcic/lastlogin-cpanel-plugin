@@ -36,14 +36,14 @@ unzip main.zip
 
 ### Changelog
 
-####v1.0.1
+#### v1.0.1
 Released: May 22th, 2022
 
 Added links to abuseipdb
 jquery updated
 
 
-####v1.0.0
+#### v1.0.0
 Released: May 1th, 2022
 
 Stable Release
