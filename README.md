@@ -2,7 +2,7 @@ When we find malicious code on a user’s website, we scan his files with a plug
 
 This plugin streamlines the process by allowing both SysAdmins and cPanel users to quickly view file content and check IPs in the AbuseIPDB.
 
-<img src="https://raw.githubusercontent.com/stefanpejcic/lastlogin-cpanel-plugin/main/assets/img/screenshot.png"></img>
+<!--img src="https://raw.githubusercontent.com/stefanpejcic/lastlogin-cpanel-plugin/main/assets/img/screenshot.png"></img-->
 
 ### Features
 
