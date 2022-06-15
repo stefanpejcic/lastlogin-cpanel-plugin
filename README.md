@@ -1,3 +1,7 @@
+When we find malicious code on a user’s website, we scan his files with a plugin such as ImunifyAV and check .lastlogin file for any suspicious IP addresses that have been reported in the AbuseIP database.
+
+This plugin streamlines the process by allowing both SysAdmins and cPanel users to quickly view file content and check IPs in the AbuseIPDB.
+
 <img src="https://raw.githubusercontent.com/stefanpejcic/lastlogin-cpanel-plugin/main/assets/img/screenshot.png"></img>
 
 ### Features
