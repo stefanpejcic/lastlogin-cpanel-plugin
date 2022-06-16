@@ -17,21 +17,18 @@ To install this free cpanel plugin you need access to the WHM and terminal. Logi
 
 - PaperLatern theme:
 
-```html
-wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/main.zip
-unzip main.zip
-/bin/cp lastlogin-cpanel-plugin-main -R /usr/local/cpanel/base/frontend/paper_lantern/lastlogin
-/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/lastlogin/info.json
-```
+`wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/main.zip`
+`unzip main.zip`
+`/bin/cp lastlogin-cpanel-plugin-main -R /usr/local/cpanel/base/frontend/paper_lantern/lastlogin`
+`/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/lastlogin/info.json`
 
 - Jupiter theme:
 
-```html
-wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/main.zip
-unzip main.zip
-/bin/cp lastlogin-cpanel-plugin-main  -R /usr/local/cpanel/base/frontend/jupiter/lastlogin/
-/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/lastlogin/info.json
-```-->
+`wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/main.zip`
+`unzip main.zip`
+`/bin/cp lastlogin-cpanel-plugin-main  -R /usr/local/cpanel/base/frontend/jupiter/lastlogin/`
+`/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/lastlogin/info.json`
+-->
 
 
 ### Changelog
