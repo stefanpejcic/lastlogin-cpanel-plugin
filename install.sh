@@ -11,7 +11,7 @@ cp src/Account.php /usr/local/cpanel/base/frontend/paper_lantern/loginlog/src/Ac
 cp src/hostname.php /usr/local/cpanel/base/frontend/paper_lantern/loginlog/src/hostname.php
 cp assets/css/main.css /usr/local/cpanel/base/frontend/paper_lantern/loginlog/assets/css/main.css
 
-/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/loginlog/loginlog.tar.gz --theme paper_lantern
+/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/paper_lantern/loginlog/loginlog.tar --theme paper_lantern
 
 
 
@@ -27,4 +27,4 @@ mv src/Account.php /usr/local/cpanel/base/frontend/jupiter/loginlog/src
 mv src/hostname.php /usr/local/cpanel/base/frontend/jupiter/loginlog/src
 mv assets/css/main.css /usr/local/cpanel/base/frontend/jupiter/loginlog/assets/css
 
-/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/loginlog/loginlog.tar.gz --theme jupiter
+/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/loginlog/loginlog.tar --theme jupiter
