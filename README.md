@@ -14,24 +14,17 @@ This plugin streamlines the process by allowing both SysAdmins and cPanel users 
 
 To install this free cpanel plugin you need access to the WHM and terminal. Login to SSH and run the following commands to install the plugin:
 
-
-- PaperLatern theme:
-
 `wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/main.zip`
-`unzip main.zip`
-`/bin/cp lastlogin-cpanel-plugin-main -R /usr/local/cpanel/base/frontend/paper_lantern/lastlogin`
-`/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/lastlogin/info.json`
-
-- Jupiter theme:
-
-`wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/main.zip`
-`unzip main.zip`
-`/bin/cp lastlogin-cpanel-plugin-main  -R /usr/local/cpanel/base/frontend/jupiter/lastlogin/`
-`/usr/local/cpanel/scripts/install_plugin /usr/local/cpanel/base/frontend/jupiter/lastlogin/info.json`
--->
+`unzip main.zip && cd lastlogin-cpanel-plugin-main/`
+`chmod +x install.sh && ./install.sh`
 
 
 ### Changelog
+
+#### v1.0.3
+Released:  March 06th, 2022
+
+Added installation script
 
 #### v1.0.1
 Released: May 22th, 2022
