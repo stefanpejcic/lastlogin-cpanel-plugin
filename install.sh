@@ -5,7 +5,7 @@ mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/loginlog/assets
 mkdir -p /usr/local/cpanel/base/frontend/paper_lantern/loginlog/assets/css
 
 
-
+mv loginlog.tar.gz /usr/local/cpanel/base/frontend/paper_lantern/loginlog
 mv loginlog.live.php /usr/local/cpanel/base/frontend/paper_lantern/loginlog
 mv src/Account.php /usr/local/cpanel/base/frontend/paper_lantern/loginlog/src
 mv src/hostname.php /usr/local/cpanel/base/frontend/paper_lantern/loginlog/src
