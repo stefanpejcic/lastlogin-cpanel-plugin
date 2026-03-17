@@ -10,16 +10,74 @@ This plugin streamlines the process by allowing both SysAdmins and cPanel users 
 - outputs client ip
 - add links to abuseipdb
 
+### Requirements
+
+- cPanel **96 or later** (Jupiter theme recommended; paper_lantern also supported)
+- PHP **8.0 or later**
+- Root / WHM SSH access to the server
+
+---
+
 ### How to install the plugin
 
-To install this free cpanel plugin you need access to the WHM and terminal. Login to SSH and run the following commands to install the plugin:
+You need WHM/root SSH access. Run the following commands:
 
-`wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/main.zip`
-`unzip main.zip && cd lastlogin-cpanel-plugin-main/`
-`chmod +x install.sh && ./install.sh`
+```bash
+cd /usr/local/src
+wget https://github.com/windsofchange/lastlogin-cpanel-plugin/archive/refs/heads/main.zip
+unzip main.zip
+cd lastlogin-cpanel-plugin-main/
+chmod +x install.sh
+sudo ./install.sh
+```
 
+The script installs the plugin for both the **Jupiter** and **paper_lantern** cPanel themes automatically.
+
+After installation the **Login Log** icon appears in the **Security** section of your cPanel dashboard.
+
+---
+
+### How to uninstall the plugin
+
+To remove the plugin completely from both themes, run the following as root:
+
+```bash
+# Remove from Jupiter theme
+/usr/local/cpanel/bin/uninstall_plugin \
+  /usr/local/cpanel/base/frontend/jupiter/loginlog/loginlog.tar \
+  --theme jupiter
+rm -rf /usr/local/cpanel/base/frontend/jupiter/loginlog
+
+# Remove from paper_lantern theme
+/usr/local/cpanel/bin/uninstall_plugin \
+  /usr/local/cpanel/base/frontend/paper_lantern/loginlog/loginlog.tar \
+  --theme paper_lantern
+rm -rf /usr/local/cpanel/base/frontend/paper_lantern/loginlog
+```
+
+Then rebuild the cPanel interface cache so the icon disappears immediately:
+
+```bash
+/usr/local/cpanel/bin/rebuild_sprites
+```
+
+---
 
 ### Changelog
+
+#### v2.0.0
+Released: March 17th, 2026
+
+- **Security:** Fixed XSS via unescaped `.lastlogin` table output and `REMOTE_ADDR`
+- **Security:** Added path-traversal protection on the account name
+- **Security:** Replaced `die()` with graceful error handling
+- **Security:** Removed jQuery 3.5.0 (CVE-2020-11022 / CVE-2020-11023); all rendering is now server-side PHP
+- **PHP 8.x:** Added `declare(strict_types=1)` and typed parameters across all files
+- **PHP 8.x:** Fixed double file-read bug and `while(!feof())` phantom-line issue
+- **cPanel API:** `Account::name()` now uses `$_ENV['REMOTE_USER']` (cPanel 96+) with LiveAPI fallback
+- **cPanel API:** `hostname()` now uses native `gethostname()` instead of LiveAPI
+- **Icon:** Added `loginlog.svg` — 48×48 flat SVG icon for the Jupiter theme
+- **install.sh:** Fixed critical bug where `mv` destroyed source files after paper_lantern install, causing the Jupiter theme registration to silently fail
 
 #### v1.0.3
 Released:  March 06th, 2022

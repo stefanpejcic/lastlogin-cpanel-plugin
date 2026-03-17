@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Login Log">
+  <!--
+    Login Log — cPanel Jupiter theme icon
+    Design: Shield (security) containing a clock face (login history)
+    Style: Flat, single-accent (#FF6C2C cPanel orange) on white
+    Size:  48 × 48 px as required by cPanel Jupiter
+  -->
+
+  <!-- Shield body -->
+  <path d="M24 3 L44 11 C44 11 44 29 44 29 C44 39.5 35 44.5 24 47 C13 44.5 4 39.5 4 29 L4 11 Z"
+        fill="#FF6C2C"/>
+
+  <!-- Shield inner bevel (lighter top edge gives depth) -->
+  <path d="M24 7 L41 14 C41 14 41 29 41 29 C41 37.5 33.5 42 24 44.5 C14.5 42 7 37.5 7 29 L7 14 Z"
+        fill="#FF8144" opacity="0.25"/>
+
+  <!-- Clock face (white disc) -->
+  <circle cx="24" cy="27" r="12" fill="white"/>
+
+  <!-- Cardinal tick marks -->
+  <!-- 12 o'clock -->
+  <line x1="24" y1="17"  x2="24" y2="19.5" stroke="#FF6C2C" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- 3 o'clock -->
+  <line x1="34"  y1="27" x2="31.5" y2="27" stroke="#FF6C2C" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- 6 o'clock -->
+  <line x1="24" y1="37"  x2="24" y2="34.5" stroke="#FF6C2C" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- 9 o'clock -->
+  <line x1="14"  y1="27" x2="16.5" y2="27" stroke="#FF6C2C" stroke-width="1.8" stroke-linecap="round"/>
+
+  <!-- Hour hand  (~10 o'clock — 300° / upper-left) -->
+  <line x1="24" y1="27" x2="19.2" y2="21.5"
+        stroke="#FF6C2C" stroke-width="2.2" stroke-linecap="round"/>
+
+  <!-- Minute hand (~2 o'clock — 60° / upper-right, longer) -->
+  <line x1="24" y1="27" x2="30.2" y2="22.0"
+        stroke="#FF6C2C" stroke-width="1.6" stroke-linecap="round"/>
+
+  <!-- Centre pivot -->
+  <circle cx="24" cy="27" r="1.8" fill="#FF6C2C"/>
+</svg>
