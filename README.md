@@ -2,7 +2,7 @@ When we find malicious code on a user’s website, we scan his files with a plug
 
 This plugin streamlines the process by allowing both SysAdmins and cPanel users to quickly view file content and check IPs in the AbuseIPDB.
 
-<!--img src="https://raw.githubusercontent.com/stefanpejcic/lastlogin-cpanel-plugin/main/assets/img/screenshot.png"></img-->
+![screenshot](https://raw.githubusercontent.com/stefanpejcic/lastlogin-cpanel-plugin/main/assets/img/screenshot.png)
 
 ### Features
 
@@ -24,7 +24,7 @@ You need WHM/root SSH access. Run the following commands:
 
 ```bash
 cd /usr/local/src
-wget https://github.com/windsofchange/lastlogin-cpanel-plugin/archive/refs/heads/main.zip
+wget https://github.com/stefanpejcic/lastlogin-cpanel-plugin/archive/refs/heads/main.zip
 unzip main.zip
 cd lastlogin-cpanel-plugin-main/
 chmod +x install.sh
